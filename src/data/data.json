@@ -132,28 +132,28 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Isabel",
+      "job": "Co-fundadora"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Nauzet",
+      "job": ""
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Iria",
+      "job": ""
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Karen",
+      "job": "Co-fundadora"
     }
   ],
   "Contact": {
     "address": "Gran Canaria - España ",
-    "phone": "+1 123 456 1234",
+    "phone": "Proximamente",
     "email": "inikcamper@gmail.com",
     "facebook": "https://www.facebook.com/InikCamper-113925204533049",
     "twitter": "https://www.twitter.com/inikcamper",

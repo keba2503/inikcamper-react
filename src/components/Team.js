@@ -7,8 +7,7 @@ export const Team = (props) => {
         <div className='col-md-8 col-md-offset-2 section-title'>
           <h2>Nuestro Equipo</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Somos una familia aventurera y emprendedora. Nuestras iniciales conforman unidas el nombre de nuestro estupendo equipo " INIK ". Las encargadas de las responsabilidades somos las adultas y los encargados de disfrutar al maximo son los pequeños.
           </p>
         </div>
         <div id='row'>

@@ -42,8 +42,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Contactanos</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Si tienes alguna duda no dudes en consultarnos, rellena el formulario y te contestaremos lo mas pronto posible.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -101,7 +100,7 @@ export const Contact = (props) => {
               <h3>Informacion de contacto</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Dirección
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -109,7 +108,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> Teléfono
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -117,7 +116,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> Correo electronico
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>

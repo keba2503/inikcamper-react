@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Galeria de Imagenes</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Algunos de nuestros momentos en la vida con Camper Van.
           </p>
         </div>
         <div className='row'>
