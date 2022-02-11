@@ -8,6 +8,7 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import Slider from "./components/slide";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 
@@ -27,12 +28,13 @@ function App() {
 
   return (
     <div>
-   <Navigation />
+      <Navigation />
+      <Slider />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
+      <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
