@@ -572,6 +572,30 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+
+.fab {
+  padding: 20px;
+
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  .fab:hover {
+  opacity: 0.7;
+  }
+  
+  .fa-whatsapp {
+  background-color: rgb(8, 243, 47);
+  color: #fff;
+  font-size: 40px;
+  }
+
+
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -662,7 +686,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #a2d5d8 0%, #d3c199 100%);
+  background:  #a2d5d8;
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -670,10 +694,12 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #000;
+  font-size: 20px;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -796,9 +822,10 @@ header .intro-text {
 }
 #contact .section-title p {
   font-size: 16px;
+  color: #000;
 }
 #contact h2 {
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -813,7 +840,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #000;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -878,11 +905,13 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
+  color: #000;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
   margin-bottom: 10px;
   display: block;
+
 }
 #contact .contact-item i.fa {
   margin-right: 10px;

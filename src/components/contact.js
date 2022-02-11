@@ -21,7 +21,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_seshdt8', 'template_j4lvwzd', e.target, 'user_OmQVMukt3ZYQR3UaMx9ex'
       )
       .then(
         (result) => {
@@ -31,7 +31,7 @@ export const Contact = (props) => {
         (error) => {
           console.log(error.text)
         }
-      )
+      )   
   }
   return (
     <div>
@@ -109,6 +109,7 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Teléfono
+             
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -139,6 +140,11 @@ export const Contact = (props) => {
                   <li>
                     <a href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : '/'}>
+                      <i className='fa fa-whatsapp'></i>
                     </a>
                   </li>
                 </ul>
