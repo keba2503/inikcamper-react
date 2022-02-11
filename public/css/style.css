@@ -932,3 +932,27 @@ label {
     margin: 50px 0;
   }
 }
+
+@media (max-width: 700px) {
+  .slider__slide-heading {
+    display: flex;
+    margin-bottom: 20px;
+    font-size:30px;
+    letter-spacing: 2px;
+  }
+
+  .slider__slide-subheading {
+    margin-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+ 
+
+
+}
+
+

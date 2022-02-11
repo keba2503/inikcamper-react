@@ -6,16 +6,14 @@
   "About": {
     "paragraph": "",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Somos una desconexión de la vida diaria para los apasionados de la libertad. ",
+      "Planificamos las experiencias y aventuras por y para ti."
+     
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Te acompañara nuestra Camper Van.",
+      "Te Ofrecemos un servicio personalizado y de calidad.",
+      "Te guiamos en tús vacaciones para que no tengas preocupaciones."
     ]
   },
   "Gallery": [
@@ -67,35 +65,37 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bus",
+      "name": "Alquiler de Camper Van",
+      "text": "Si gustas puedes alquilar nuestra Camper Van unicamente, tranquilo incluira todo lo básico y necesario para que puedas disfrutar al máximo de tus días."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-slideshare",
+      "name": "Planificamos tus experiencias",
+      "text": "Si deseas que planifiquemos por tí las aventuras que deseas vivir, haremos las reservaciones de las actividades, te guiaremos en todo lo que necesites."
+    },
+ 
+    {
+      "icon": "fa fa-life-ring",
+      "name": "Actividades acuaticas",
+      "text": "Te ofrecemos varios kit que puedes ajustar a tu gusto para que disfrutes de experiencias acuaticas como: Kayak, Paddle, Raquetas de playa, Snorkeling, entre otros."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bicycle",
+      "name": "Alquiler de Bicicletas",
+      "text": "Puedes alquilar con nosotros las bicicletas para disfrutar de paseos o montaña. Tambien podemos ofrecerte un bono para que uses las bicicletas de la ciudad."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-paw",
+      "name": "Somos Pet Friendly ",
+      "text": "Puedes disfrutar de los momentos especiales con tu mascota, siempre sera bienvenida."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cutlery",
+      "name": "Momentos especiales",
+      "text": "Te ofrecemos planificar y darte los necesario para que realices un picni para tus ocasines especiales."
     }
+  
   ],
   "Testimonials": [
     {
