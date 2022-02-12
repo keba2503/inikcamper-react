@@ -802,6 +802,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  border-radius: 50%;
 }
 #team .thumbnail {
   background: transparent;
