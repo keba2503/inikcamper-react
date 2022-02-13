@@ -56,7 +56,7 @@ export default class Slider extends React.Component {
               <div className="slider__slide-content">
                 <h3 className="slider__slide-subheading">{slide.text2 || slide.text1}</h3>
                 <h2 className="slider__slide-heading">
-                  {slide.text1.split('').map(l => <span>{l}</span>)}
+                  {slide.text1.split('').map((l, i) => <span key={i}>{l}</span>)}
                 </h2>
               </div>
               <div className="slider__slide-parts">
