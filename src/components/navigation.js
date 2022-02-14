@@ -1,7 +1,9 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
+    <>
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
@@ -56,5 +58,7 @@ export const Navigation = (props) => {
         </div>
       </div>
     </nav>
+      <Outlet />
+      </>
   )
 }
