@@ -45,7 +45,7 @@ export const Contact = (props) => {
                   Si tienes alguna duda no dudes en consultarnos, rellena el formulario y te contestaremos lo mas pronto posible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
