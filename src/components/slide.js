@@ -46,7 +46,7 @@ export default class Slider extends React.Component {
     const { activeSlide, prevSlide, sliderReady } = this.state;
     return (
       <div className={classnames('slider', { 's--ready': sliderReady })}>
-        <p className="slider__top-heading">En tus vacaciones sin preocupaciones; tendrás:</p>
+        <p className="slider__top-heading">En tus vacaciones sin preocupaciones tendrás:</p>
         <div className="slider__slides">
           {slides.map((slide, index) => (
             <div

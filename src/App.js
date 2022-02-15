@@ -1,43 +1,32 @@
-import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-// import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import Slider from "./components/slide";
-import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
+
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./components/home";
+import { Contacto } from "./pages/contacto";
+import { Equipo } from "./pages/Equipo";
+import { Experiencias } from "./pages/experience/Experiencias";
+import { Galeria } from "./pages/Galeria";
+import { QuienesSomos } from "./pages/Quienes";
+import { Servicios } from "./pages/Servicios";
 
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
 
 
 function App() {
 
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   return (
     <div>
-      <Navigation />
-      <Slider />
-      {/* <Header data={landingPageData.Header} /> */}
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<QuienesSomos/>} />
+        <Route path="/services" element={<Servicios/>} />
+        <Route path="/portfolio" element={<Galeria/>} />
+        <Route path="/team" element={<Equipo/>} />
+        <Route path="/contact" element={<Contacto/>} />
+        <Route path="/experience" element={<Experiencias/>} />
+      </Routes>
+
     </div>
   );
 }

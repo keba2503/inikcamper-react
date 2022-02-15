@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
@@ -19,9 +19,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          <Link className='navbar-brand page-scroll' to='/'>
             InikCamper
-          </a>{' '}
+          </Link>{' '}
         </div>
 
         <div
@@ -29,30 +29,36 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
+          <li>
+              <Link to='/' className='page-scroll'>
+                Inicio
+              </Link>
+            </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <Link to='/about' className='page-scroll'>
                 Quienes Somos
-              </a>
+              </Link>
             </li>
+         
             <li>
-              <a href='#services' className='page-scroll'>
+              <Link to='/services' className='page-scroll'>
                 Servicios
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <Link to='/portfolio' className='page-scroll'>
                 Galeria
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#team' className='page-scroll'>
+              <Link to='/team' className='page-scroll'>
                 Equipo
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
+              <Link to='/contact' className='page-scroll'>
                 Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
