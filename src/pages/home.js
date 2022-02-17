@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
-import { Team } from "../components/Team";
 import { Contact } from "../components/contact";
-
+import Slider from "../components/slide";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -12,7 +12,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 
-export function Equipo() {
+export function Home() {
 
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
@@ -23,12 +23,11 @@ export function Equipo() {
     <div>
 
 <Navigation data={landingPageData.Contact}/> 
-     
-      <Team data={landingPageData.Team} />
-  
+      <Slider />
       <Contact data={landingPageData.Contact} />
 
     </div>
   );
 }
+
 

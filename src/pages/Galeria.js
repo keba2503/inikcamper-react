@@ -22,7 +22,7 @@ export function Galeria() {
   return (
     <div>
 
-      <Navigation />
+<Navigation data={landingPageData.Contact}/> 
      
       <Gallery data={landingPageData.Gallery} />
   

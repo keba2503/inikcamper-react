@@ -21,7 +21,7 @@ export function Contacto() {
   return (
     <div>
 
-      <Navigation />
+<Navigation data={landingPageData.Contact}/> 
      
  
       <Contact data={landingPageData.Contact} />

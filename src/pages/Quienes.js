@@ -21,7 +21,7 @@ export function QuienesSomos() {
   return (
     <div>
 
-      <Navigation />
+<Navigation data={landingPageData.Contact}/> 
       <About data={landingPageData.About} />  
       <Contact data={landingPageData.Contact} />
 

@@ -400,7 +400,7 @@ hr {
 
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -419,10 +419,10 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #555;
-  font-size: 15px;
-  font-weight: 400;
-  padding: 8px 2px;
-  border-radius: 0;
+  font-size: 13px;
+  font-weight: 400px;
+  padding: 8px 5px;
+  border-radius: 5px;
   margin: 9px 20px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
@@ -435,6 +435,7 @@ hr {
   background: linear-gradient(to right, #a2d5d8 0%, #d3c199 100%);
   content: "";
   transition: width 0.2s;
+  
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
@@ -491,6 +492,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
+ 
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -513,6 +515,7 @@ hr {
   color: #fff;
   background-image: none;
   background-color: #a2d5d8;
+  
 }
 .btn:active,
 .btn.active {
@@ -520,6 +523,7 @@ hr {
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+  
 }
 a:focus,
 .btn:focus,
@@ -654,6 +658,7 @@ header .intro-text {
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
 }
 #about p {
   line-height: 24px;
@@ -941,6 +946,33 @@ label {
   color: #a2d5d8;
   background: #fff;
 }
+
+
+#contact-whatsaap .social {
+  
+  padding-top: 2px;
+  margin-top: 2px;
+  text-align: center;
+}
+#contact-whatsaap .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#contact-whatsaap .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#contact-whatsaap .social i.fa:hover {
+  color: #a2d5d8;
+  background: #fff;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;

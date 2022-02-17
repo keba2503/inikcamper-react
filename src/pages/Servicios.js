@@ -24,7 +24,7 @@ export function Servicios() {
   return (
     <div>
 
-      <Navigation />  
+      <Navigation data={landingPageData.Contact}/>  
     
       <Services data={landingPageData.Services} />
 
